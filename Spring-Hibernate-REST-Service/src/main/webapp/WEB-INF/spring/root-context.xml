@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<!--  
+	 * The asm.jar used here in web-inf/lib path ahs issues with higher versions of java than 1.6
+	 * It throws the initial loading error illegal argumentexception in loading the class person
+	 * To avoid this conflict with higher jvm versions keep thy application properties  java compiler level to 1.6 .
+	  -->
+</beans>

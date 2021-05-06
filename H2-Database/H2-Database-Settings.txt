@@ -1,0 +1,8 @@
+  Database file path for Generic  H2 Server
+
+A file path that is implicitly relative to the current working directory like jdbc:h2:tcp://localhost/testDB is not allowed in the database URL "jdbc:h2:tcp://localhost/testDB;FORBID_CREATION=TRUE". 
+Use an absolute path, ~/name,(In current system user dir) ./name,(Dir from Where server is running) or the baseDir setting instead.  
+
+  Examples of valid URLs
+  jdbc:h2:tcp://localhost/~/testDB  (The testDB.mv.db file is in current user directory i.e. C:\Users\praka\ directory
+jdbc:h2:tcp://localhost/./testDB   (The testDB.mv.db file is in current dir from where the server is started i.e. C:\H2-Database  directory
